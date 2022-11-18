@@ -1,11 +1,18 @@
 body{
-    margin: 0;
-    background: rgb(34, 49, 8);
+    background: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
    
 }
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+}
+
 
 .header{
     background: rgb(47, 54, 61);
@@ -15,10 +22,11 @@ body{
     justify-content: space-between;
     padding: 8px;
     height: 80px;
+    
 }
 
 h1{
-    color: white;
+    color: black;
 }
 
 a {
@@ -31,7 +39,7 @@ ul{
     padding: 0;
     gap: 16px;
     list-style: none;
-    color: white;
+    color: rgb(38, 48, 23);
 }
 
 .left, .right {
@@ -41,16 +49,17 @@ ul{
 }
 
 .container1{
-    background: black;
+ background-image: url(stoic.jpg);  
+ background-size: contain;
    padding: 120px;
    display: flex;
    justify-content: space-between;
-   height: 375px;
-   flex: 1;
+   height: 400px;
+   
 }
 
 .box1 {
-    color: grey;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -63,20 +72,6 @@ font-weight: 800;
 
 }
 
-.box2 {
-    justify-content: center;
-    align-items: center;
-}
-img {
-    
-    height: auto;
-    width: 600px;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 5px;
-    margin: 0;
-    padding-right: 8px;
-}
 
 
 .header,
